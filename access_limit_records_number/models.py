@@ -29,7 +29,7 @@ class BaseLimitRecordsNumber(models.Model):
         for rule in self.search([("model_id.model", "=", model_name)]):
             records_count = self.env[model_name].search_count(safe_eval(rule.domain))
             if records_count > rule.max_records:
-                raise exceptions.Warning(
+                raise exceptions.UserError(
                     _(
                         'Maximimum allowed records in table "%(model_name)s" is %(max_records)s, while after this update you would have %(records_count)s'
                     )
