@@ -5,14 +5,14 @@
 import logging
 from datetime import datetime
 
-from mako.template import Template
+from jinja2 import Template
 
 from odoo import models
 from odoo.tools.misc import DEFAULT_SERVER_DATETIME_FORMAT
 
 _logger = logging.getLogger(__name__)
 DATABASE_BLOCK_MESSAGE_HTML_TEMPLATE = Template(
-    "<p>${database_block_message}</p><a href='${database_expiration_link}'>${database_expiration_link_label}</a>"
+    "<p>{{database_block_message}}</p><a href='{{database_expiration_link}}'>{{database_expiration_link_label}}</a>"
 )
 
 
