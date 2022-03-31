@@ -2,3 +2,7 @@
     width: 100%;
     text-align: center;
 }
+
+.o_navbar_apps_menu .dropdown-menu {
+    z-index: 1120; /* $.blockUI.defaults.baseZ + 20 */
+}
