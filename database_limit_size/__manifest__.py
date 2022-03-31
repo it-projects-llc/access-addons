@@ -6,7 +6,7 @@
     "summary": """This module allows blocking backend access when database limit is exceeded""",
     "category": "Extra Tools",
     "images": [],
-    "version": "14.0.1.0.0",
+    "version": "15.0.1.0.0",
     "application": False,
     "author": "IT-Projects LLC, Eugene Molotov",
     "support": "help@itpp.dev",
