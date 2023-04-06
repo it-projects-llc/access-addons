@@ -8,6 +8,8 @@
 
 # Odoo Addons for extended access control
 
+Forked from https://github.com/itpp-labs/access-addons
+
 <!-- /!\ do not modify below this line -->
 
 <!-- /!\ Non OCA Context : Set here the full description of your organization. -->
