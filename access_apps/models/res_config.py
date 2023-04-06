@@ -1,5 +1,5 @@
-# Copyright 2018 Ivan Yelizariev <https://it-projects.info/team/yelizariev>
-# Copyright 2018 Ildar Nasyrov <https://it-projects.info/team/iledarn>
+# Copyright 2018 Ivan Yelizariev <https://github.com/yelizariev>
+# Copyright 2018 Ildar Nasyrov <https://github.com/iledarn>
 # License MIT (https://opensource.org/licenses/MIT).
 
 from odoo import api, models

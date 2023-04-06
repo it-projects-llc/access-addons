@@ -1,7 +1,3 @@
-.. image:: https://itpp.dev/images/infinity-readme.png
-   :alt: Tested and maintained by IT Projects Labs
-   :target: https://itpp.dev
-
 =========================
  Limit number of records
 =========================
@@ -20,15 +16,9 @@ the user should be a member of ``Control limits on records number`` security gro
 Questions?
 ==========
 
-To get an assistance on this module contact us by email :arrow_right: help@itpp.dev
+To get an assistance on this module contact us by email :arrow_right: it@it-projects.info
 
 Contributors
 ============
+
 * Pavel Romanchenko <romanchenko@it-projects.info>
-
-===================
-
-Odoo Apps Store: https://apps.odoo.com/apps/modules/14.0/access_limit_records_number/
-
-
-Tested on `Odoo 14.0 <https://github.com/odoo/odoo/commit/3c285d5cd931e6f503060c6daa1823507aba7957>`_

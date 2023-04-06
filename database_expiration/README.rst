@@ -1,11 +1,3 @@
-.. image:: https://itpp.dev/images/infinity-readme.png
-   :alt: Tested and maintained by IT Projects Labs
-   :target: https://itpp.dev
-
-.. image:: https://img.shields.io/badge/license-MIT-blue.svg
-   :target: https://opensource.org/licenses/MIT
-   :alt: License: MIT
-
 =====================
  Database expiration
 =====================
@@ -25,19 +17,9 @@ By default hyperlink's label is "Details". To define the other one, set ``databa
 Questions?
 ==========
 
-To get an assistance on this module contact us by email :arrow_right: help@itpp.dev
+To get an assistance on this module contact us by email :arrow_right: it@it-projects.info
 
 Contributors
 ============
-* `Eugene Molotov <https://it-projects.info/team/em230418>`__:
 
-
-Further information
-===================
-
-Odoo Apps Store: https://apps.odoo.com/apps/modules/14.0/database_expiration/
-
-
-Notifications on updates: `via Atom <https://github.com/itpp-labs/access-addons/commits/14.0/database_expiration.atom>`_, `by Email <https://blogtrottr.com/?subscribe=https://github.com/itpp-labs/access-addons/commits/14.0/database_expiration.atom>`_
-
-Tested on `Odoo 14.0 <https://github.com/odoo/odoo/commit/829ae7b7e2941b6bb7af73a6d3d78b4ef1abf453>`_
+* `Eugene Molotov <https://github.com/em230418>`__:

@@ -1,7 +1,3 @@
-.. image:: https://itpp.dev/images/infinity-readme.png
-   :alt: Tested and maintained by IT Projects Labs
-   :target: https://itpp.dev
-
 ========================
  Control access to Apps
 ========================
@@ -16,16 +12,10 @@ Adds **Apps access** selection in user's access rights tab. Two options are avai
 Questions?
 ==========
 
-To get an assistance on this module contact us by email :arrow_right: help@itpp.dev
+To get an assistance on this module contact us by email :arrow_right: it@it-projects.info
 
 Contributors
 ============
-* `Ivan Yelizariev  <https://it-projects.info/team/yelizariev>`__
-* `Ildar Nasyrov  <https://it-projects.info/team/iledarn>`__
 
-
-Further information
-===================
-
-
-Tested on `Odoo 15.0 <https://github.com/odoo/odoo/commit/c16d4b5e7b9181c2c792f595a117de10510d45be>`_
+* `Ivan Yelizariev  <https://github.com/yelizariev>`__
+* `Ildar Nasyrov  <https://github.com/iledarn>`__

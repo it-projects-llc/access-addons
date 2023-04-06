@@ -1,4 +1,4 @@
-# Copyright 2020 Eugene Molotov <https://it-projects.info/team/em230418>
+# Copyright 2020 Eugene Molotov <https://github.com/em230418>
 # License MIT (https://opensource.org/licenses/MIT).
 
 import os

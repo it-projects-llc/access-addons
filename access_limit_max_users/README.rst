@@ -1,11 +1,3 @@
-.. image:: https://itpp.dev/images/infinity-readme.png
-   :alt: Tested and maintained by IT Projects Labs
-   :target: https://itpp.dev
-
-.. image:: https://img.shields.io/badge/license-MIT-blue.svg
-   :target: https://opensource.org/licenses/MIT
-   :alt: License: MIT
-
 =======================
  Limit number of users
 =======================
@@ -24,17 +16,9 @@ In order to make user to be ignoring the limit, you can use field ``is_excluded_
 Questions?
 ==========
 
-To get an assistance on this module contact us by email :arrow_right: help@itpp.dev
+To get an assistance on this module contact us by email :arrow_right: it@it-projects.info
 
 Contributors
 ============
-* `Eugene Molotov <https://it-projects.info/team/em230418>`__:
 
-
-Further information
-===================
-
-Odoo Apps Store: https://apps.odoo.com/apps/modules/14.0/access_limit_max_users/
-
-
-Tested on `Odoo 14.0 <https://github.com/odoo/odoo/commit/05c373a99a6064f08fc9eb0662ab2ccdb1978cd7>`_
+* `Eugene Molotov <https://github.com/em230418>`__:

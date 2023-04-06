@@ -1,4 +1,4 @@
-# Copyright 2021 Ivan Yelizariev <https://it-projects.info/team/yelizariev>
+# Copyright 2021 Ivan Yelizariev <https://github.com/yelizariev>
 # License MIT (https://opensource.org/licenses/MIT).
 from odoo import SUPERUSER_ID, api
 
