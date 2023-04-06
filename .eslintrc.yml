@@ -1,9 +1,16 @@
 env:
   browser: true
+  es6: true
 
 # See https://github.com/OCA/odoo-community.org/issues/37#issuecomment-470686449
 parserOptions:
-  ecmaVersion: 2017
+  ecmaVersion: 2019
+
+overrides:
+  - files:
+      - "**/*.esm.js"
+    parserOptions:
+      sourceType: module
 
 # Globals available in Odoo that shouldn't produce errorings
 globals:
@@ -14,7 +21,6 @@ globals:
   moment: readonly
   odoo: readonly
   openerp: readonly
-  Promise: readonly
   owl: readonly
 
 # Styling is handled by Prettier, so we only need to enable AST rules;
@@ -102,7 +108,7 @@ rules:
   no-obj-calls: warn
   no-octal-escape: warn
   no-octal: warn
-  no-param-reassign: off
+  no-param-reassign: warn
   no-path-concat: warn
   no-process-env: warn
   no-process-exit: warn
@@ -133,9 +139,7 @@ rules:
   no-unsafe-finally: error
   no-unused-expressions: error
   no-unused-labels: error
-  no-unused-vars:
-    - error
-    - args: none
+  no-unused-vars: error
   no-use-before-define: error
   no-useless-call: warn
   no-useless-computed-key: warn
@@ -151,7 +155,6 @@ rules:
   require-yield: warn
   sort-imports: warn
   spaced-comment: [error, always]
-  space-before-function-paren: ["warn", {"anonymous": "always", "named": "never"}]
   strict: [error, function]
   use-isnan: error
   valid-jsdoc:

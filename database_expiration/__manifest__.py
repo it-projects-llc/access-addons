@@ -11,7 +11,7 @@
     "application": False,
     "author": "IT-Projects LLC, Eugene Molotov",
     "support": "apps@it-projects.info",
-    "website": "https://twitter.com/OdooFree",
+    "website": "https://github.com/it-projects-llc/access-addons",
     "license": "Other OSI approved licence",  # MIT
     "depends": ["database_block"],
     "external_dependencies": {"python": [], "bin": []},

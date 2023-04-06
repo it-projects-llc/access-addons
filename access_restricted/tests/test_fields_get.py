@@ -18,7 +18,7 @@ class TestFieldsGet(TransactionCase):
         res = (
             self.env["res.users"]
             .with_user(demo_user)
-            .with_context({"uid": demo_user.id})
+            .with_context(uid=demo_user.id)
             .load_views([[view_users_form.id, "form"]])
         )
 

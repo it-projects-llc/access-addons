@@ -5,8 +5,8 @@
     "author": "IT-Projects LLC, Ivan Yelizariev",
     "category": "Extra Tools",
     "images": ["images/banner.png"],
-    "support": "apps@itpp.dev",
-    "website": "https://twitter.com/OdooFree",
+    "support": "it@it-projects.info",
+    "website": "https://github.com/it-projects-llc/access-addons",
     "license": "Other OSI approved licence",  # MIT
     "depends": ["access_apps"],
     "data": ["security/access_settings_menu_security.xml"],

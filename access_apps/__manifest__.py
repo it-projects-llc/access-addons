@@ -10,8 +10,8 @@
     "version": "15.0.2.0.0",
     "application": False,
     "author": "IT-Projects LLC, Ivan Yelizariev",
-    "support": "apps@itpp.dev",
-    "website": "https://twitter.com/OdooFree",
+    "support": "it@it-projects.info",
+    "website": "https://github.com/it-projects-llc/access-addons",
     "license": "Other OSI approved licence",  # MIT
     # "price": 10.00,
     "currency": "EUR",

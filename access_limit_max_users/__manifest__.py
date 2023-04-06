@@ -9,8 +9,8 @@
     "version": "15.0.1.1.1",
     "application": False,
     "author": "IT-Projects LLC, Eugene Molotov",
-    "support": "help@itpp.dev",
-    "website": "https://twitter.com/OdooFree",
+    "support": "it@it-projects.info",
+    "website": "https://github.com/it-projects-llc/access-addons",
     "license": "Other OSI approved licence",  # MIT
     "depends": ["access_limit_records_number"],
     "external_dependencies": {"python": [], "bin": []},

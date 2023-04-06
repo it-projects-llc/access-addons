@@ -7,7 +7,7 @@
                 onclick='$(".o_navbar_apps_menu > button").trigger("click")'
                 id="alert-danger"
             >
-                <t t-raw="message"/>
+                <t t-raw="message" />
             </div>
         </div>
     </t>
@@ -19,7 +19,7 @@
                 style="display: block; margin: 0 auto;"
                 t-if="session.database_block_show_message_in_apps_menu &amp;&amp; session.database_block_message"
             >
-                <t t-raw="session.database_block_message"/>
+                <t t-raw="session.database_block_message" />
             </div>
         </xpath>
     </t>

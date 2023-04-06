@@ -24,7 +24,7 @@ class BaseLimitRecordsNumber(models.Model):
 
     @api.model
     def verify_table(self):
-        """ Get parameters and verify. Raise exception if limit """
+        """Get parameters and verify. Raise exception if limit"""
         model_name = self.env.context["active_model"]
         for rule in self.search([("model_id.model", "=", model_name)]):
             records_count = self.env[model_name].search_count(safe_eval(rule.domain))
