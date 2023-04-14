@@ -27,7 +27,8 @@ class BaseLimitRecordsNumber(models.Model):
         """Get parameters and verify. Raise exception if limit"""
         model_name = self.env.context["active_model"]
         for rule in self.search([("model_id.model", "=", model_name)]):
-            records_count = self.env[model_name].search_count(safe_eval(rule.domain))
+            Model = self.env[model_name].with_context(active_test=True)
+            records_count = Model.search_count(safe_eval(rule.domain))
             if records_count > rule.max_records:
                 raise exceptions.UserError(
                     _(
