@@ -1,0 +1,4 @@
+- Open `Settings -> Users & Companies -> Users`
+- Choose any user except yourself
+- `Actions -> Toggle readonly`
+- RESULT: user is now readonly user
