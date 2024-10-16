@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="users_view_form" model="ir.ui.view">
+        <field name="name">res.users.form.readonly</field>
+        <field name="model">res.users</field>
+        <field name="inherit_id" ref="base.view_users_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//widget[@name='web_ribbon']" position="after">
+                <field name="is_readonly" invisible="1" />
+                <widget
+                    name="web_ribbon"
+                    title="Readonly user"
+                    bg_color="text-bg-danger"
+                    invisible="not is_readonly"
+                />
+            </xpath>
+        </field>
+    </record>
+
+    <record id="action_toggle_readonly" model="ir.actions.server">
+        <field name="name">Toggle Readonly</field>
+        <field name="model_id" ref="base.model_res_users" />
+        <field name="binding_model_id" ref="base.model_res_users" />
+        <field name="state">code</field>
+        <field name="code">
+            record.toggle_readonly()
+        </field>
+    </record>
+</odoo>
