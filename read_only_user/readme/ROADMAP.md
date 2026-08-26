@@ -1,1 +1,0 @@
-- Fix issues with Discuss (`mail`) and OdooBot (`mail_bot`) modules
