@@ -1,6 +1,6 @@
 {
     "name": """Read Only User""",
-    "version": "17.0.0.1.0",
+    "version": "15.0.0.1.0",
     "author": "IT-Projects LLC",
     "support": "apps@it-projects.info",
     "website": "https://github.com/it-projects-llc/access-addons",

@@ -10,8 +10,8 @@
                 <widget
                     name="web_ribbon"
                     title="Readonly user"
-                    bg_color="text-bg-danger"
-                    invisible="not is_readonly"
+                    bg_color="bg-danger"
+                    attrs="{'invisible': [('is_readonly', '=', False)]}"
                 />
             </xpath>
         </field>
