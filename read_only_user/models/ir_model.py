@@ -15,8 +15,14 @@ class IrModelAccess(models.Model):
         keys=("lang",),
     )
     def check(self, model, mode="read", raise_exception=True):
+        if mode == "create" and model == "mail.message":
+            if self._is_readonly_user():
+                if raise_exception:
+                    raise AccessError(_("Sorry, you are read-only user."))
+                else:
+                    return False
+
         if self.env.su:
-            # User root have all accesses
             return True
 
         assert isinstance(model, str), "Not a model name: %s" % (model,)  # noqa: UP031
