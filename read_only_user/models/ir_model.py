@@ -1,6 +1,8 @@
 from odoo import _, api, models, tools
 from odoo.exceptions import AccessError
 
+from ..const import mail_message_exception
+
 
 class IrModelAccess(models.Model):
     _inherit = "ir.model.access"
@@ -15,7 +17,12 @@ class IrModelAccess(models.Model):
         keys=("lang",),
     )
     def check(self, model, mode="read", raise_exception=True):
-        if mode == "create" and model == "mail.message":
+        if (
+            mode == "create"
+            and model == "mail.message"
+            and not self.env.context.get("mail_message_exception")
+            == mail_message_exception
+        ):
             if self._is_readonly_user():
                 if raise_exception:
                     raise AccessError(_("Sorry, you are read-only user."))
